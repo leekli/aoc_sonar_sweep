@@ -1,0 +1,22 @@
+{
+  "name": "aoc_sonar_sweep",
+  "version": "1.0.0",
+  "description": "My solution to Day 1: Sonar Sweep on Advent of Code 2021.",
+  "main": "sonar.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leekli/aoc_sonar_sweep.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leekli/aoc_sonar_sweep/issues"
+  },
+  "homepage": "https://github.com/leekli/aoc_sonar_sweep#readme",
+  "dependencies": {
+    "jest": "^28.1.0"
+  }
+}
