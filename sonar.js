@@ -2,19 +2,19 @@ function sonarCalc(data) {
   try {
     let numbersArr = data.split("\n").map(Number);
     let prevNum = 0;
-    let count = 0;
+    let increasedCount = 0;
 
     for (let i = 0; i < numbersArr.length; i++) {
       if (i === 0) {
         prevNum = numbersArr[i];
       } else {
         if (numbersArr[i] > prevNum) {
-          count++;
+          increasedCount++;
         }
         prevNum = numbersArr[i];
       }
     }
-    return count;
+    return increasedCount;
   } catch (err) {
     console.log(err);
   }

@@ -2,11 +2,6 @@
 
 _My solution to Day 1: Sonar Sweep on Advent of Code 2021._
 
-**Jim:**
-
-- **Part One**: Done ✅
-- **Part Two**: Not complete yet ❌
-
 ---
 
 ## **Part one** - Done ✅
@@ -54,7 +49,7 @@ To do this, count the number of times a depth measurement increases from the pre
 In this example, there are 7 measurements that are larger than the previous measurement.
 ```
 
-## **Part two** - Not complete yet ❌
+## **Part two** - Done ✅
 
 ```
 Considering every single measurement isn't as useful as you expected: there's just too much noise in the data.
